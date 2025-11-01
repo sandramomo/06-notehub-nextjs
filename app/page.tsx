@@ -1,6 +1,6 @@
 import HomePage from "@/components/Home/Home"
 
 const Home = () => {
-  return <HomePage/>
+  return (<section><HomePage/></section>)
 }
 export default Home

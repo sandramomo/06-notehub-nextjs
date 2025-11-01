@@ -1,7 +1,7 @@
 import css from "./Home.module.css"
 
 function HomePage() {
-    return (<main>
+    return (
   <div className={css.container}>
     <h1 className={css.title}>Welcome to NoteHub</h1>
     <p className={css.description}>
@@ -16,7 +16,6 @@ function HomePage() {
       and productivity.
     </p>
   </div>
-</main>
 )
 }
 export default HomePage
